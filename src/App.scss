@@ -1,0 +1,84 @@
+@font-face {
+  font-family: font1;
+  src: url('Helvetica.ttf');
+}
+@font-face {
+  font-family: font2;
+  src: url('Inter-Regular.otf');
+}
+@font-face {
+  font-family: font3;
+  src: url('Inter-Regular.woff');
+}
+@font-face {
+  font-family: font4;
+  src: url('segoe.ttf');
+}
+
+
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-family: font1;
+}
+.scPage::-webkit-scrollbar {
+  width: 0!important;
+}
+input, textarea, select, button, Input, Button {
+	outline: none!important;
+  resize: none!important;
+  font-size: 16px;
+}
+input::placeholder {
+  color: rgb(108, 114, 132);
+}
+.stick {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width:  1366px) {
+  .padder {
+      padding: 0 2%;
+  }
+}
+@media only screen and (min-width:  1600px) {
+  .padder {
+      padding: 0 5%;
+  }
+}
+
+@media only screen and (min-width:  1700px) {
+  .padder {
+      padding: 0 10%;
+  }
+}
+
+@media only screen and (min-width:  1900px) {
+  .padder {
+      padding: 0 15%;
+  }
+}
+
+@media only screen and (min-width:  2500px) {
+  .padder {
+      padding: 0 25%;
+  }
+}
+@media only screen and (min-width:  3800px) {
+  .padder {
+      padding: 0 30%;
+  }
+}
+
+@media only screen and (min-width:  4070px) {
+  .padder {
+      padding: 0 35%;
+  }
+}
